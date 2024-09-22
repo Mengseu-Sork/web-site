@@ -15,12 +15,12 @@ nav{
     display: flex;
     align-items: center;
 }
-.h2{
-    color: gray;
-    flex: 1.5;
-    text-align: center;
-    font-size: 30px;
-    font-family: serif;
+.logo{
+    flex: 4;
+}
+.logo img{
+    width: 300px;
+    margin-left: 50px;
 }
 .nav-link{
     flex: 5;
@@ -44,6 +44,7 @@ nav{
 #color{
     background-color: black;
     color: white;
+    border-radius: 10px;
 }
 header{
     display: flex;
